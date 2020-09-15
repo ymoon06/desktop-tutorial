@@ -14,7 +14,7 @@ _this is italics_
 () is actual address to the website
 
 ## a couple of images
-![image of a circle](https://en.wikipedia.org/wiki/Circle#/media/File:Circle-withsegments.svg)
+![image of a tiger](https://en.wikipedia.org/wiki/Tiger#/media/File:Bengal_tiger_(Panthera_tigris_tigris)_female_3_crop.jpg)
 exclamation mark trasnforms a link into showing an image.
 there shouldnt be a space between [] and ()
 
