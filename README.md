@@ -20,5 +20,5 @@ Write your name on line 6, save it, and then head back to GitHub Desktop.
 () is actual address to the website
 
 ## a couple of images
-![image of 6](ETH Zurich.png)
+![image of 6](https://octodex.github.com/images/bannekat.png)
 
