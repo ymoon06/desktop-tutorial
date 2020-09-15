@@ -9,12 +9,13 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Creat 100 samples from a log normal distribution
+## Create 100 samples from a log normal distribution
 
 
 
 ```{r samples}
-x <- rlnorm(100, meanlog = log(1), sdlog = 0.25)
+set.seed(5)
+x <- rlnorm(100, meanlog = 1, sdlog = 0.25)
 print(x)
 ```
 
@@ -22,6 +23,7 @@ print(x)
 ## Create a histogram of the distribution and the distribution on the log scale
 ```{r histX}
 hist(x)
+hist(log(x))
 ```
 
 
