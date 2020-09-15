@@ -1,11 +1,21 @@
 # Statistical bioinformatics, ex-1 
 
 (one hash means big title)
+**this is bold**
+_this is italics_
+
  
 ## a little content.
-
 (two hases mean small title)
+## a couple of links
+[google](www.google.com)
 
+[] is name of link
+() is actual address to the website
+
+## a couple of images
+![image of a circle] (https://en.wikipedia.org/wiki/Circle#/media/File:Circle-withsegments.svg)
+exclamation mark trasnforms a link into showing an image.
  
 
 This is your README. READMEs are where you can communicate what your project is and how to use it.
