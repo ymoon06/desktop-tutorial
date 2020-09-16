@@ -22,12 +22,15 @@ pull: update remote->local repository
 push: update local->remote repository
 
 ## a little content (markdown+Rmarkdown+Git)
+
 create repository
+
 	1) create a remote repository
 	2) establish credential of computer and register this key with remote repository.
 	3) remote suppository is cloned locally (from remote to the local repository) 
 
 add contents
+
 	4) put file in the local repository/or remote repository.
 	5) commit
 	6) push/pull to synchronize
