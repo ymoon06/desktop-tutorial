@@ -21,51 +21,51 @@ Repository: a folder containing history of changes
 pull: update remote->local repository
 push: update local->remote repository
 
-## a little content (process)
+## a little content (markdown+Rmarkdown+Git)
 create repository
-1) create a remote repository
-2) establish credential of computer and register this key with remote repository.
-3) remote suppository is cloned locally (from remote to the local repository) 
+	1) create a remote repository
+	2) establish credential of computer and register this key with remote repository.
+	3) remote suppository is cloned locally (from remote to the local repository) 
 
 add contents
-4) put file in the local repository/or remote repository.
-5) commit
-6) push/pull to synchronize
+	4) put file in the local repository/or remote repository.
+	5) commit
+	6) push/pull to synchronize
 
-push+6 means you have 6 commit that is not pushed to remote yet 
+	push+6 means you have 6 commit that is not pushed to remote yet 
 
-##a little content (commit to master, branching)
+commit to master, branching
 
-1) change all files related with a single bug
-2) write a summary and description
-3) commit to master 
-(commit to master is like drawing a line saying until here is fixing a 1st bug. You froze sequence of changes in the local repository)
+	1) change all files related with a single bug
+	2) write a summary and description
+	3) commit to master 
+	(commit to master is like drawing a line saying until here is fixing a 1st bug. You froze sequence of changes in the local repository)
 
-if you have 6 bugs->you probably have 6 commits.
-If bug4 turned out not to be an error then you can do cherry pick (reverse change that is in the middle without affecting others)
+	if you have 6 bugs->you probably have 6 commits.
+	If bug4 turned out not to be an error then you can do cherry pick (reverse change that is in the middle without affecting others)
 
-you can merge branches into a master.
+	you can merge branches into a master.
 
-if you have 6 branches: you have 6 independent changes. you can merge branches together.
+	if you have 6 branches: you have 6 independent changes. you can merge branches together.
 
-##Rmarkdown
-Rknit creates 'html' file from R with markdown ->html
+Rmarkdown
+	Rknit creates 'html' file from R with markdown ->html
 
-markdown: formatting of parts of documents using symbols. (##makes a title etc)
-Rmarkdown: allows to format document and also to include R code and also output of execution. (just like jupiter notebook)
+	markdown: formatting of parts of documents using symbols. (##makes a title etc)
+	Rmarkdown: allows to format document and also to include R code and also output of execution. (just like jupiter notebook)
 
-r setup: means set up markdown file
-without any sign->means comment in R markdown
-'''this block is R code
-'''
-insert R: creates R code block
+	r setup: means set up markdown file
+	without any sign->means comment in R markdown
+	'''this block is R code
+	'''
+	insert R: creates R code block
 
-'''
-{r samples}
-'''
-samples is the name of a particular cell. you can use 'samples' in other cells as well.
+	'''
+	{r samples}
+	'''
+	samples is the name of a particular cell. you can use 'samples' in other cells as well.
 
-`r ` this part is R code but can be used within text. 
+	`r ` this part is R code but can be used within text. 
 ## an example of link
 [ETH Zurich](https://ethz.ch/en.html)
 
