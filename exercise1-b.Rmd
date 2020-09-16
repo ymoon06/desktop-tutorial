@@ -14,7 +14,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 
 ```{r samples}
-set.seed(5)
+set.seed(6)
 x <- rlnorm(100, meanlog = 1, sdlog = 0.25)
 print(x)
 ```
@@ -22,8 +22,8 @@ print(x)
 
 ## Create a histogram of the distribution and the distribution on the log scale
 ```{r histX}
-hist(x)
-hist(log(x))
+hist(x, main= paste("Histogram of samples from log normal distribution"))
+hist(log(x),main=paste("Histogram of samples from log normal distribution on log scale"))
 ```
 
 
@@ -35,9 +35,14 @@ hist(log(x))
 print(mean(x))
 print(var(x))
 print(sd(x))
+
+
+mean.samples<-mean(x)
+variance.samples<-var(x)
 ```
 
-
+mean of samples is `r mean.samples`
+and variance of samples is `r variance.samples`
 
 
 
